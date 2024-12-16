@@ -9,7 +9,6 @@ Include this line to set a light stream of 24 lights right below the navigation 
     $("#navigation").guirnalda(24);
 </script>
 
-
 Main development by: @josedetorre, please link to github.com profile as attribution
 
 Special Thanks to Alberto Gozalo Madrazo for his invaluable support, good mood and special effects.
