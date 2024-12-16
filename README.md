@@ -1,4 +1,7 @@
-# Creative Commons CC BY-NC-SA aplies
+# Navidad
+
+Creative Commons CC BY-NC-SA applies
+
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 Just include guirnalda.css and guirnalda.js to your web page.
