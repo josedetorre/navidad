@@ -1,0 +1,48 @@
+.guirnalda-container {
+    position: absolute;    
+    width: 100%;
+    height: 1px;
+    background-color: #008000;
+    margin-top:1rem;
+    z-index: 1000;
+}
+
+.guirnalda-container .esfera {
+    position: absolute;
+    width: 0.5rem;
+    height: 0.65rem;
+    border-radius: 0.25rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: red; /* Color por defecto */
+    margin-top: 0.75rem;
+    text-align: center;
+    box-shadow: 0 0 0.25rem currentColor;
+}
+
+.guirnalda-container .esfera {
+    animation: oscurecer 2s infinite alternate;
+}
+
+.guirnalda-container .esfera .gorrito {
+    position: relative;
+    width: 0.25rem;
+    height: 0.25rem;
+    background-color: #008000; /* Color por defecto */ 
+    margin-left: 0.125rem;
+    margin-top: -0.25rem;   
+}
+
+@keyframes oscurecer {
+    0% {
+        filter: brightness(1); /* Brillo normal */
+    }
+
+    90% {
+        filter: brightness(1); /* Oscurecido */
+    }
+
+    100% {
+        filter: brightness(0.25); /* Oscurecido */
+    }
+}

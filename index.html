@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josete</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="./css/guirnalda.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Josete</h1>
+    </header>
+
+    <!-- Breadcrumb Section -->
+    <nav aria-label="breadcrumb" class="bg-light py-3" id="migapan">
+        <div class="container">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Josete</li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-4">
+        <div class="row">
+            <!-- Sidebar -->
+            <aside class="col-md-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">Menu Item 1</a>
+                    <a href="#" class="list-group-item list-group-item-action">Menu Item 2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Menu Item 3</a>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="col-md-9">
+                <h2>Welcome to Josete's Page</h2>
+                <p>This is the main content area. Add your text, images, or anything else here!</p>
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script/guirnalda.js"></script>
+    <script>
+        $("#migapan").guirnalda(24);
+    </script>
+</body>
+</html>
